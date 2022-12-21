@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 
 import Current from './pages/Current/Current'
 import Incoming from './pages/Incoming/Incoming'
@@ -12,7 +12,6 @@ import './App.css';
 class App extends React.Component {
   constructor(props){
     super(props)
-
   }
 
   render(){

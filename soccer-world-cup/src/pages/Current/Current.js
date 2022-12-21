@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import MatchList from '../../components/MatchList/MatchList'
 
 
 class Current extends React.Component{
@@ -10,6 +11,8 @@ class Current extends React.Component{
         return(
             <>
                 Liste des matchs actuels
+
+                <MatchList url="https://worldcupjson.net/matches/today" />
             </>
         )
     }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 
 class Error404 extends React.Component{
